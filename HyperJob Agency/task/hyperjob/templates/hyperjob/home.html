@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8000/resume/new" method="get"> {% csrf_token %}
+        <button type="submit">Create resume</button>
+    </form>
+    <form action="http://127.0.0.1:8000/resume/new" method="get"> {% csrf_token %}
+        <button type="submit">Create vacancy</button>
+    </form>
+</body>
+</html>
